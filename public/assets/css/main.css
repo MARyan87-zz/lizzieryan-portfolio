@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Playfair+Display');
+
+.backdrop {
+    background-color: #8b8b8b;
+}
+
+/* Fonts */
+.main-font {
+    font-family: 'Cabin', sans-serif;
+    color: black;
+}
+.secondary-font {
+    font-family: 'Playfair Display', serif;
+}
+.font-md {
+    font-size: 24px;
+}
+.font-xl {
+    font-size: 48px;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.lowercase {
+    text-transform: lowercase;
+}
+.bold {
+    font-weight: bold;
+}
+.spacing {
+    letter-spacing: 9px;
+}
+
+/* Header */
+.header {
+    background-color: #8b8b8b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    margin-right: 140px;
+}
