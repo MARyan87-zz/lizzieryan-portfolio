@@ -1,5 +1,6 @@
 import React from 'react';
 import MainFont from '../Primitives/MainFont';
+import {Link} from 'react-router-dom';
 
 class Header extends React.Component {
   constructor(props) {
@@ -13,13 +14,19 @@ class Header extends React.Component {
         <div className='nav'>
           <ul>
             <li>
-              <MainFont options={{bold: true, size: 'sm', lowercase: true}} link="#" text={'work'}/>
+              <Link to="/">
+                <MainFont options={{bold: true, size: 'sm', lowercase: true}} text={'work'}/>
+              </Link>
             </li>
             <li>
-              <MainFont options={{bold: true, size: 'sm', lowercase: true}} link="#" text={'resume'}/>
+              <Link to="/Resume">
+                <MainFont options={{bold: true, size: 'sm', lowercase: true}} text={'resume'}/>
+              </Link>
             </li>
             <li>
-              <MainFont options={{bold: true, size: 'sm', lowercase: true}} link="#" text={'contact'}/>
+              <Link to="/Contact">
+                <MainFont options={{bold: true, size: 'sm', lowercase: true}} text={'contact'}/>
+              </Link>
             </li>
           </ul>
         </div>

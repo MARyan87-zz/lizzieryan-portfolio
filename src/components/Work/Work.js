@@ -1,4 +1,5 @@
 import React from 'react';
+import './Work.css';
 
 //Components
 import MainFont from '../Primitives/MainFont';
