@@ -4,6 +4,16 @@
     background-color: #8b8b8b;
 }
 
+.standard-margin {
+    margin: 0 120px;
+}
+
+.content {
+    background-color: white;
+    border-bottom: 45px solid #4CA799;
+    padding: 0 120px;
+}
+
 /* Fonts */
 .main-font {
     font-family: 'Cabin', sans-serif;
@@ -12,8 +22,14 @@
 .secondary-font {
     font-family: 'Playfair Display', serif;
 }
-.font-md {
+.font-xs {
+    font-size: 18px;
+}
+.font-sm {
     font-size: 24px;
+}
+.font-md {
+    font-size: 36px;
 }
 .font-xl {
     font-size: 48px;
@@ -30,6 +46,12 @@
 .spacing {
     letter-spacing: 9px;
 }
+.grey {
+    color: #8b8b8b;
+}
+.white {
+    color: white;
+}
 
 /* Header */
 .header {
@@ -44,5 +66,37 @@
 }
 
 .nav ul li {
-    margin-right: 140px;
+    margin-right: 120px;
+}
+.nav ul li:last-child {
+    margin: 0;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 0 110px 0;
+}
+
+.footer-left {
+    display: flex;
+}
+
+.footer-left img {
+    max-width: 38px;
+    margin: 10px 0 0 115px;
+}
+
+.footer-left div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-right {
+    align-self: flex-end;
+}
+
+.copywrite {
+    align-self: flex-end;
 }

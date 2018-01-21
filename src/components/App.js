@@ -1,8 +1,10 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 // Components
 import Header from './Header/Header';
+import Footer from './Footer/Footer';
+import Work from './Work/Work';
 
 class App extends React.Component {
   constructor(props) {
@@ -10,7 +12,7 @@ class App extends React.Component {
 
     this.state = {
       refreshWholeApp: props.refreshWholeApp
-    }
+    };
 
     this.refreshWholeApp = this.refreshWholeApp.bind(this);
   }
@@ -23,13 +25,17 @@ class App extends React.Component {
     return (
       <div className="backdrop">
         <div className="container">
-          <Route
-            path="/"
-            component={(props) => (
-              <Header {...props}
-                      refreshWholeApp={this.refreshWholeApp}
-              />)}
-          />
+          <Header />
+          <div className="content">
+            <Switch>
+              <Route
+                path="/"
+                exact
+                component={Work}
+              />
+            </Switch>
+          </div>
+          <Footer />
         </div>
       </div>
     );

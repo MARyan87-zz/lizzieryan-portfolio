@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Router} from 'react-router-dom';
-import history from './history';
+import {BrowserRouter as Router} from 'react-router-dom';
 import App from './components/App';
 
 function refreshWholeApp() {
   ReactDOM.render(
-    <Router history={history} basename="/">
+    <Router basename="/">
       <App refreshWholeApp={refreshWholeApp}/>
     </Router>,
     document.getElementById('app')
@@ -14,5 +13,3 @@ function refreshWholeApp() {
 }
 
 refreshWholeApp();
-
-export default history;

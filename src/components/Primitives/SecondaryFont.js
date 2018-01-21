@@ -1,6 +1,6 @@
 import React from 'react';
 
-class MainFont extends React.Component {
+class SecondaryFont extends React.Component {
   constructor(props) {
     super(props);
 
@@ -8,7 +8,7 @@ class MainFont extends React.Component {
   }
 
   createClass() {
-    let className = 'main-font';
+    let className = 'secondary-font';
     let opts = this.props.options;
 
     if (opts.size) {
@@ -18,8 +18,6 @@ class MainFont extends React.Component {
         className += ' font-md';
       } else if (opts.size === 'sm') {
         className += ' font-sm';
-      } else if (opts.size === 'xs') {
-        className += ' font-xs';
       }
     }
 
@@ -39,12 +37,8 @@ class MainFont extends React.Component {
       className += ' spacing';
     }
 
-    if (opts.color === 'white') {
-      className += ' white';
-    }
-
-    if (opts.additionalClass) {
-      className += ` ${opts.additionalClass}`;
+    if (opts.color === 'grey') {
+      className += ' grey';
     }
 
     return className;
@@ -53,16 +47,10 @@ class MainFont extends React.Component {
   render() {
     let className = this.createClass();
 
-    if (!this.props.link) {
-      return (
+    return (
         <p className={className}>{this.props.text}</p>
-      );
-    } else {
-      return (
-        <a className={className} href={this.props.link}>{this.props.text}</a>
-      );
-    }
+    );
   }
 }
 
-export default MainFont;
+export default SecondaryFont;

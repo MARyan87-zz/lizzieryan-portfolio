@@ -8,18 +8,18 @@ class Header extends React.Component {
 
   render() {
     return (
-      <section className='header'>
-        <MainFont options={{bold: true, size:'xl', uppercase: true, spacing: true}} text={'Lizzie Ryan'} />
+      <section className='header standard-margin'>
+        <MainFont options={{bold: true, size:'md', uppercase: true, spacing: true}} text={'Lizzie Ryan'} />
         <div className='nav'>
           <ul>
             <li>
-              <MainFont options={{bold: true, size: 'md', lowercase: true}} link="#" text={'work'}/>
+              <MainFont options={{bold: true, size: 'sm', lowercase: true}} link="#" text={'work'}/>
             </li>
             <li>
-              <MainFont options={{bold: true, size: 'md', lowercase: true}} link="#" text={'resume'}/>
+              <MainFont options={{bold: true, size: 'sm', lowercase: true}} link="#" text={'resume'}/>
             </li>
             <li>
-              <MainFont options={{bold: true, size: 'md', lowercase: true}} link="#" text={'contact'}/>
+              <MainFont options={{bold: true, size: 'sm', lowercase: true}} link="#" text={'contact'}/>
             </li>
           </ul>
         </div>
