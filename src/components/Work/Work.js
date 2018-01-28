@@ -1,5 +1,6 @@
 import React from 'react';
 import './Work.css';
+import ContentTitle from '../Composed/ContentTitle';
 
 //Components
 import MainFont from '../Primitives/MainFont';
@@ -13,10 +14,8 @@ class Work extends React.Component {
   render() {
     return (
       <div>
-        <div className="work-header">
-          <SecondaryFont options={{size:'md', bold: true}} text="UX Designer"/>
-          <SecondaryFont options={{size: 'sm', lowercase: true, color: 'grey'}} text='& researcher'/>
-        </div>
+        <ContentTitle />
+        <h1>work</h1>
       </div>
     )
   }

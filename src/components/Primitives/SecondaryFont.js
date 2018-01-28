@@ -41,6 +41,10 @@ class SecondaryFont extends React.Component {
       className += ' grey';
     }
 
+    if (opts.italic) {
+      className += ' italic';
+    }
+
     return className;
   }
 

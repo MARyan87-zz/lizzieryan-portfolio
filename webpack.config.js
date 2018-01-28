@@ -3,7 +3,11 @@ module.exports = {
   entry: "./src/index.js",
 
   output: {
-    filename: "public/bundle.js"
+    filename: "public/bundle.js",
+    publicPath: '/'
+  },
+  devServer: {
+    historyApiFallback: true,
   },
 
   // This section desribes the transformations we will perform

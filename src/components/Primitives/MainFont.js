@@ -9,11 +9,13 @@ class MainFont extends React.Component {
 
   createClass() {
     let className = 'main-font';
-    let opts = this.props.options;
+    let opts = this.props.options || {};
 
     if (opts.size) {
       if (opts.size === 'xl') {
         className += ' font-xl';
+      } else if (opts.size === 'lg') {
+        className += ' font-lg';
       } else if (opts.size === 'md') {
         className += ' font-md';
       } else if (opts.size === 'sm') {
@@ -41,6 +43,10 @@ class MainFont extends React.Component {
 
     if (opts.color === 'white') {
       className += ' white';
+    }
+
+    if (opts.color === 'teal') {
+      className += ' teal';
     }
 
     if (opts.additionalClass) {

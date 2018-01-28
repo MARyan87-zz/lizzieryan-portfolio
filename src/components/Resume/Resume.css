@@ -1,0 +1,43 @@
+.resume {
+    display: flex;
+    flex-direction: column;
+}
+
+.resume .resume-img {
+    max-width: 50%;
+    align-self: flex-end;
+}
+
+.section-title {
+    margin: 40px 0 20px 0;
+}
+
+.job-title {
+    margin: 15px 0;
+}
+
+.job:first-child .job-title {
+    margin-top: 0;
+}
+
+.school:not(:first-child) {
+    margin-top: 20px
+}
+
+.location-duration {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-left: 1em;
+}
+
+.references {
+    margin: 60px 0 70px 0;
+}
