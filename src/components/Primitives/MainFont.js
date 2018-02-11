@@ -22,6 +22,8 @@ class MainFont extends React.Component {
         className += ' font-sm';
       } else if (opts.size === 'xs') {
         className += ' font-xs';
+      } else if (opts.size === 'tiny') {
+        className += ' font-tiny';
       }
     }
 
@@ -47,6 +49,10 @@ class MainFont extends React.Component {
 
     if (opts.color === 'teal') {
       className += ' teal';
+    }
+
+    if (opts.color === 'grey') {
+      className += ' grey';
     }
 
     if (opts.additionalClass) {

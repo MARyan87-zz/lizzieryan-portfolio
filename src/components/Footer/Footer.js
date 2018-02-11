@@ -11,7 +11,7 @@ class Footer extends React.Component {
       <section className='footer standard-margin'>
         <div className='footer-left'>
           <div>
-            <MainFont options={{bold: true, size:'md', uppercase: true, spacing: true, color: 'white'}} text='Lizzie Ryan' />
+            <MainFont options={{bold: true, size:'lg', uppercase: true, spacing: true, color: 'white'}} text='Lizzie Ryan' />
             <MainFont red={true} options={{size: 'xs', color: 'white', additionalClass: 'copywrite'}} text='&copy; 2018 Lizzie Ryan'/>
           </div>
           <div>

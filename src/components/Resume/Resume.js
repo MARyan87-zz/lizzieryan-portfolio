@@ -12,7 +12,7 @@ class Resume extends React.Component {
 
   render() {
     return (
-      <div className='resume'>
+      <div className='page-content resume'>
         <ContentTitle />
         <img className='resume-img' alt='Lizzie Ryan' src='assets/img/lizzie.jpeg' />
         <div className='section-title'>

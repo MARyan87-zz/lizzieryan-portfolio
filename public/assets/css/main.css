@@ -14,12 +14,21 @@
     padding: 0 120px;
 }
 
+.page-content {
+    display: flex;
+    flex-direction: column;
+}
+
 p {
     margin: 0;
 }
 
 .content-title {
     margin-top: 65px;
+}
+
+a:hover, a:active, a:focus, a:visited {
+    text-decoration: none;
 }
 
 /* Fonts */
@@ -29,6 +38,9 @@ p {
 }
 .secondary-font {
     font-family: 'Playfair Display', serif;
+}
+.font-tiny {
+    font-size: 14px;
 }
 .font-xs {
     font-size: 18px;

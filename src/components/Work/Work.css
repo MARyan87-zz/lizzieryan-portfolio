@@ -1,0 +1,35 @@
+.work-content {
+    display: flex;
+}
+
+.work-img {
+    width: 66%;
+}
+
+.work-img > img {
+    width: 100%;
+}
+
+.recent-work {
+    width: 33%;
+}
+
+.recent-work-title {
+    margin-bottom: 115px;
+}
+
+.work-item-title {
+    margin-bottom: 42px;
+}
+
+.work-description {
+    width: 75%;
+}
+
+.read-study {
+    margin-top: 35px;
+}
+
+.back-to-top {
+    margin: 500px 0 70px 0;
+}
