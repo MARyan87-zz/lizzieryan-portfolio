@@ -7,6 +7,7 @@ import Footer from './Footer/Footer';
 import Work from './Work/Work';
 import Resume from './Resume/Resume';
 import Contact from './Contact/Contact.js';
+import CaseStudy from './CaseStudy/CaseStudy';
 
 class App extends React.Component {
   constructor(props) {
@@ -116,6 +117,13 @@ class App extends React.Component {
                 path="/Contact"
                 exact
                 component={Contact}
+              />
+              <Route
+                path="/Casestudy/:study"
+                exact
+                render={props => <CaseStudy {...props}
+
+                />}
               />
             </Switch>
           </div>

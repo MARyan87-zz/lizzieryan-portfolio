@@ -15,7 +15,7 @@ class Footer extends React.Component {
             <MainFont red={true} options={{size: 'xs', color: 'white', additionalClass: 'copywrite'}} text='&copy; 2018 Lizzie Ryan'/>
           </div>
           <div>
-            <img src='assets/img/linkedin.png' />
+            <img src='/assets/img/linkedin.png' />
           </div>
         </div>
         <div className='footer-right'>
