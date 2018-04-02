@@ -1,5 +1,6 @@
 .work-content {
     display: flex;
+    flex-direction: column;
 }
 
 .work-img {
@@ -7,10 +8,12 @@
 }
 
 .work-img > img {
+    margin-top: 25px;
     width: 100%;
 }
 
 .recent-work {
+    padding-left: 20px;
     width: 33%;
 }
 
@@ -22,6 +25,10 @@
     margin-bottom: 42px;
 }
 
+.work-item-title.not-first {
+    margin-top: 115px;
+}
+
 .work-description {
     width: 75%;
 }
@@ -31,5 +38,5 @@
 }
 
 .back-to-top {
-    margin: 500px 0 70px 0;
+    margin: 70px 0;
 }

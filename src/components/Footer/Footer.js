@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import MainFont from '../Primitives/MainFont';
 
 class Footer extends React.Component {
@@ -15,7 +16,9 @@ class Footer extends React.Component {
             <MainFont red={true} options={{size: 'xs', color: 'white', additionalClass: 'copywrite'}} text='&copy; 2018 Lizzie Ryan'/>
           </div>
           <div>
-            <img src='/assets/img/linkedin.png' />
+              <Link to='https://www.linkedin.com/in/lizzie-ryan-b306b2bb/'>
+                <img src='/assets/img/linkedin.png' />
+              </Link>
           </div>
         </div>
         <div className='footer-right'>

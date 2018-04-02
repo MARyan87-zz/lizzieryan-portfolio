@@ -1,3 +1,11 @@
+.case-study-container {
+    margin-bottom: 25px;
+}
+
 .case-study {
     width: 100%;
+}
+
+.prototype-link {
+    margin: 100px 0;
 }
