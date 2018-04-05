@@ -1,9 +1,9 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
-import {URL_MAP, lookupStudy} from "../../constants";
+import {lookupStudy} from "../../constants";
 
 import StudyTemplate from '../Composed/StudyTemplate';
 import Zeit from '../CaseStudy/Zeit';
+import SpotifySquare from '../CaseStudy/Spotify-Square';
 import './CaseStudy.css';
 
 class CaseStudy extends React.Component {
