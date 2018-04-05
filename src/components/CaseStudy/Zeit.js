@@ -155,6 +155,9 @@ class Zeit extends React.Component {
                 <img src='/assets/img/zeit/Zeit-Pages-2.png' />
                 <img src='/assets/img/zeit/iPad_Zeit.png' />
                 <img src='/assets/img/zeit/iPhone_Zeit.png' />
+                <div className='hifi'>
+                <a href='https://invis.io/G5ETO6GZA' target='_blank'><MainFont options={{size: 'xs', color: 'teal'}} text={'Click Here To See The HiFi Prototype.'} /></a>
+                </div>
               </div>
               <div className='project-summary'>
                 <div className='project-summary-container'>

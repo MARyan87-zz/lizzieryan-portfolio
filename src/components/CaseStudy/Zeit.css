@@ -163,3 +163,11 @@ li {
 .responsive-pages img:first-child{
     margin-bottom: 50px;
 }
+
+.ui-design p:nth-child(5) {
+    margin-top: 20px;
+}
+
+.hifi {
+    margin-bottom: 100px;
+}

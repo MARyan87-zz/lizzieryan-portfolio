@@ -7,6 +7,10 @@
     width: 66%;
 }
 
+.crop {
+    padding: 150px;
+}
+
 .work-img > img {
     margin-top: 25px;
     width: 100%;

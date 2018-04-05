@@ -11,7 +11,7 @@ class StudyTemplate extends React.Component {
     render() {
         return (
             <div className='study-template'>
-                <div className='work-img'>
+                <div className={this.props.img.indexOf('Zeit') === -1 ? 'work-img crop' : 'work-img'}>
                     <img src={this.props.img} />
                 </div>
                 <div className='recent-work'>
