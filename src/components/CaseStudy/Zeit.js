@@ -122,6 +122,46 @@ class Zeit extends React.Component {
                     <img className='sitemap width-75' src='/assets/img/zeit/Sitemap.png' />
                     <img className='taskflow width-75' src='/assets/img/zeit/Zeit-Task-Flow.png' />
                 </div>
+              <div className='interaction-icon width-50'>
+                <img src={'/assets/img/icons/Interaction-Design-Icon.png'}/>
+                <MainFont options={{size: 'md', bold: true, color: 'grey'}} text={'Interaction Design'}/>
+                <MainFont options={{size: 'xs'}} text={'Zeit\'s wireframes were designed with a mobile first design, as the users we focused on tend to use mobile devices. Paper sketches were made based on the user flow, prior to creating higher fidelity versions in Adobe Illustrator.'} />
+              </div>
+              <div className='wireframes1 width-75'>
+                <img src='/assets/img/zeit/Zeit-Wireframes-1.png'/>
+              </div>
+              <div className='wireframes2 width-75'>
+                <img src='/assets/img/zeit/Zeit-Wireframes-2.png'/>
+              </div>
+              <div className='wireframes3 width-75'>
+                <img src='/assets/img/zeit/Zeit-Wireframes-3.png'/>
+              </div>
+              <div className='width-50 ui-design'>
+                <MainFont options={{size: 'xs'}} text={'A mid-fidelity prototype was built using InVision, and tested with 5 participants. The tasks for the usability tests involved observing how participants would navigate the site to book a specific vacation, and then check out to complete their order.'} />
+                <a href='https://invis.io/UVEAURME8' target='_blank'><MainFont options={{size: 'xs', color: 'teal'}} text={'Click Here To See The Prototype.'} /></a>
+                <MainFont options={{size: 'xs'}} text={'All five users were successful in completing the assigned task within the goal time. The limitations of the prototype (i.e. non-fillable text fields) caused a few of the users to become distracted and commit errors. Surprisingly, many of the users went to the navigation drawer first to begin the task. The general opinion of the UI design was positive, but the separate elements could look more like clickable objects than images.'} />
+                <img src={'/assets/img/icons/UI-Design-Icon.png'}/>
+                <MainFont options={{size: 'md', bold: true, color: 'grey'}} text={'User Interface Design'}/>
+                <MainFont options={{size: 'xs'}} text={'The research and interaction design phases prepared us for the UI design phase. We began by creating a full style guide. The custom logo conveys a feeling of strength, representing the scientific and trustworthy values of the brand.'} />
+              </div>
+              <div className='width-75'>
+                <img src='/assets/img/zeit/Zeit-style-guide.png' />
+              </div>
+              <div style={{margin: '50px auto 100px auto'}} className='width-50'>
+                <MainFont options={{size: 'xs'}} text={'We then revisited the pages and updated utilizing the testing results. Since many of the users had clicked on the navigation drawer first to begin the task, and confirmed that they were comfortable with it, the navigation drawer remains. The UI was adjusted to allow for more obvious buttons and things like large hero images were reduced per users\' comments.  The resulting pages are below:'} />
+              </div>
+              <div className='width-75 responsive-pages'>
+                <img src='/assets/img/zeit/Zeit-Responsive-Pages-1.png' />
+                <img src='/assets/img/zeit/Zeit-Pages-2.png' />
+                <img src='/assets/img/zeit/iPad_Zeit.png' />
+                <img src='/assets/img/zeit/iPhone_Zeit.png' />
+              </div>
+              <div className='project-summary'>
+                <div className='project-summary-container'>
+                  <SecondaryFont options={{bold: true, size:'lg', color: 'white', italic: true}} text={'Conclusion'} />
+                  <MainFont options={{size: 'xs', color: 'white'}} text={'It would have been ideal to conduct the testing with a more refined prototype, to effectively measure the user\'s experience when searching either through time or by searching a map.  This project proved to be challenging in that way, keeping higher level research and design within the proper constraints when budgets and deadlines are involved.'} />
+                </div>
+              </div>
             </div>
         );
     }

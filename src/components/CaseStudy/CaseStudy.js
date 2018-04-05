@@ -12,11 +12,7 @@ class CaseStudy extends React.Component {
     }
 
     render() {
-        let hifiUrl = URL_MAP[this.props.match.params.study].hifi;
-        let lofiUrl = URL_MAP[this.props.match.params.study].lofi;
-
         let nextStudy = lookupStudy(this.props.match.params.study);
-
 
         return (
             <div className='case-study-container'>
@@ -24,7 +20,7 @@ class CaseStudy extends React.Component {
                     <Zeit />
                 }
 
-                <StudyTemplate next study={nextStudy.study} title1={nextStudy.title1} description={nextStudy.description} img={nextStudy.img} />
+                <StudyTemplate next showBackTop study={nextStudy.study} title1={nextStudy.title1} description={nextStudy.description} img={nextStudy.img} />
             </div>
         );
     }

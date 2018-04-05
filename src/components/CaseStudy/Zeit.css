@@ -18,12 +18,14 @@
 }
 
 .icons-container {
-    width: fit-content;
+    display: flex;
+    width: 75%;
     margin: 60px auto;
+    justify-content: space-around;
 }
 
 .icon-column {
-    width: 25%;
+    width: 15%;
     display: inline-block;
     vertical-align: top;
 }
@@ -108,4 +110,56 @@ li {
 
 .card-sort {
     margin-top: 50px;
+}
+
+.interaction-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.interaction-icon p:nth-child(2) {
+    margin: 20px 0 100px 0;
+}
+
+.wireframes1 img, .wireframes2 img {
+    width: 100%;
+}
+
+.wireframes1 {
+    margin-top: 75px;
+}
+
+.wireframes2 {
+    margin: 50px auto;
+}
+
+.ui-design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.ui-design p, .ui-design a {
+    margin-bottom: 100px;
+}
+
+.ui-design p:last-child {
+    margin-bottom: 0;
+}
+
+.responsive-pages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.responsive-pages img {
+    margin-bottom: 100px;
+}
+
+.responsive-pages img:first-child{
+    margin-bottom: 50px;
 }

@@ -1,3 +1,7 @@
 .study-template {
     display: flex;
 }
+
+.back-to-top {
+    margin: 100px 0 200px 0;
+}

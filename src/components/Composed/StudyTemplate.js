@@ -20,6 +20,13 @@ class StudyTemplate extends React.Component {
                             <MainFont options={{size:'lg', bold: true}} text="Recent Work"/>
                         </div>
                     }
+                    {this.props.showBackTop &&
+                      <div className='back-to-top'>
+                        <a href='#'>
+                          <MainFont options={{size:'sm', bold: true, color: 'teal'}} text={'Back to Top ^'}/>
+                        </a>
+                      </div>
+                    }
                     <div className={!this.props.showRecentWork ? 'not-first work-item-title' : 'work-item-title'}>
                         <MainFont options={{size:'md', bold: true, color: 'grey'}} text={this.props.title1}/>
                         <MainFont options={{size:'md', bold: true, color: 'grey'}} text={this.props.title2}/>
