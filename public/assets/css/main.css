@@ -4,6 +4,31 @@
     background-color: #8b8b8b;
 }
 
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-align {
+    align-items: center;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-75 {
+    width: 75%;
+}
+
+.margin-50 {
+    margin: 50px 0;
+}
+
 .standard-margin {
     margin: 0 120px;
 }
@@ -11,12 +36,12 @@
 .content {
     background-color: white;
     border-bottom: 45px solid #4CA799;
-    padding: 0 120px;
 }
 
 .page-content {
     display: flex;
     flex-direction: column;
+    padding: 0 120px;
 }
 
 p {
@@ -29,6 +54,10 @@ p {
 
 a:hover, a:active, a:focus, a:visited {
     text-decoration: none;
+}
+
+.padding-40 {
+    padding: 40px 0;
 }
 
 /* Fonts */
@@ -80,6 +109,9 @@ a:hover, a:active, a:focus, a:visited {
 }
 .teal {
     color: #4ca799;
+}
+.background-grey {
+    background-color: #EFEFEF;
 }
 
 /* Header */

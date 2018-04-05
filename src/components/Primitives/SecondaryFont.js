@@ -14,6 +14,8 @@ class SecondaryFont extends React.Component {
     if (opts.size) {
       if (opts.size === 'xl') {
         className += ' font-xl';
+      } else if (opts.size === 'lg') {
+        className += ' font-lg';
       } else if (opts.size === 'md') {
         className += ' font-md';
       } else if (opts.size === 'sm') {
@@ -40,6 +42,14 @@ class SecondaryFont extends React.Component {
     if (opts.color === 'grey') {
       className += ' grey';
     }
+
+    if (opts.color === 'white') {
+      className += ' white';
+    }
+
+      if (opts.color === 'teal') {
+          className += ' teal';
+      }
 
     if (opts.italic) {
       className += ' italic';

@@ -1,0 +1,111 @@
+.small-sections {
+    width: 25%;
+    margin: 50px 0 0 0;
+}
+
+.small-sections p:first-child {
+    margin-bottom: 25px;
+}
+
+.zeit .background-grey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.duration {
+    margin: 25px 0 50px 0;
+}
+
+.icons-container {
+    width: fit-content;
+    margin: 60px auto;
+}
+
+.icon-column {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.icon-column > p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icon-column ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+li {
+    margin: 0;
+}
+
+.project-summary {
+    background-color: #4ca799;
+    display: flex;
+    justify-content: center;
+}
+
+.project-summary-container {
+    width: 50%;
+}
+
+.project-summary-container p {
+    margin-bottom: 25px;
+}
+
+.project-summary-container p:first-child {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.project-summary-container p:last-child {
+    margin-bottom: 40px;
+}
+
+.process {
+    display: flex;
+    justify-content: center;
+}
+
+.process-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.process-container p:first-child {
+    margin: 40px 0;
+}
+
+.process-container div {
+    margin-bottom: 40px;
+}
+
+.process-container img {
+    margin-bottom: 20px;
+}
+
+.process-container p.font-xs {
+    margin: 40px 0 80px 0;
+}
+
+.standard-img {
+    width: 80%;
+}
+
+.quote {
+    padding: 50px 0;
+    margin: 50px 0;
+}
+
+.empathy-map {
+    margin: 50px 0 50px 0;
+}
+
+.card-sort {
+    margin-top: 50px;
+}

@@ -4,8 +4,8 @@ export const URL_MAP = {
         "lofi": 'https://invis.io/UVEAURME8'
     },
     "Marlowe-Case-Study": {
-        "hifi": 'https://invis.io/MPFJYJST642',
-        "lofi": 'https://invis.io/P4FOZR9UYSG'
+        "hifi": 'https://invis.io/P4FOZR9UYSG',
+        "lofi": 'https://invis.io/MPFJYJST642'
     }
 };
 
@@ -13,13 +13,13 @@ export const STUDIES = {
     "Marlowe-Case-Study": {
         study: 'Marlowe-Case-Study',
         title1: 'Responsive Website #2',
-        img: '/assets/img/Marlowe-mockups.png',
+        img: '/assets/img/marlowe/Marlowe-mockups.png',
         description: 'For our next project we will upgrade the website of a local tattoo shop, making it responsive and creating a new appointment booking form in order to streamline the process for the shop management and artists.'
     },
     "Spotify-Square-Case-Study": {
         study: 'Spotify-Square-Case-Study',
         title1: 'Adding a Feature',
-        img: '/assets/img/Spotify-Square-mockups.png',
+        img: '/assets/img/spotify-square/Spotify-Square-mockups.png',
         description: 'Our next project deals with syncing two tablet apps together to enable small business owners to record sales + music data for their business, while giving them the knowledge they need to optimize their playlists.'
     }
 };
