@@ -3,6 +3,7 @@ import {lookupStudy} from "../../constants";
 
 import StudyTemplate from '../Composed/StudyTemplate';
 import Zeit from '../CaseStudy/Zeit';
+import Marlowe from './Marlowe';
 import SpotifySquare from '../CaseStudy/Spotify-Square';
 import './CaseStudy.css';
 
@@ -18,6 +19,9 @@ class CaseStudy extends React.Component {
             <div className='case-study-container'>
                 {this.props.match.params.study === 'Zeit-Case-Study' &&
                     <Zeit />
+                }
+                {this.props.match.params.study === 'Marlowe-Case-Study' &&
+                    <Marlowe />
                 }
 
                 <StudyTemplate next showBackTop study={nextStudy.study} title1={nextStudy.title1} description={nextStudy.description} img={nextStudy.img} />

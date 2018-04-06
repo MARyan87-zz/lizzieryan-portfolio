@@ -101,7 +101,7 @@ class Zeit extends React.Component {
                 </div>
                 <div className='flex-center'>
                     <div className='width-50'>
-                    <MainFont options={{size: 'xs'}} text={'Using the data collected in the research phase, an empathy map was created for "Katie" in order to capture her current needs and to help better understand how she wants to book her vacation'} />
+                    <MainFont options={{size: 'xs'}} text={'Using the data collected in the research phase, an empathy map was created for "Katie" in order to capture her current needs and to help better understand how she wants to book her vacation.'} />
                     </div>
                 </div>
                 <div className='flex-center empathy-map'>
