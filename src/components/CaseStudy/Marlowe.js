@@ -94,8 +94,7 @@ class Marlowe extends React.Component {
                     </div>
                 </div>
                 <div className='flex-center'>
-{/* TODO: Pictures look a little stretched out here (Persona.png). Width-75 seems like it would work better. */}
-                    <img className='standard-img' src='/assets/img/marlowe/Persona.png'/>
+                    <img className='persona-img' src='/assets/img/marlowe/Persona.png'/>
                 </div>
                 <div className='quote background-grey'>
                     <SecondaryFont options={{bold: true, size:'lg', italic: true}} text={'"I need to find the perfect tattoo artist to do my sleeve."'} />
@@ -106,55 +105,42 @@ class Marlowe extends React.Component {
                     </div>
                 </div>
                 <div className='flex-center empathy-map'>
-                    <img className='standard-img' src='/assets/img/marlowe/Empathy-Map.png'/>
+                    <img src='/assets/img/marlowe/Empathy-Map.png'/>
                 </div>
                 <div className='flex-center'>
-                    <div className='width-75'>
+                    <div className='one-on-one'>
                         <MainFont options={{size: 'xs'}} text={'Using the 1-on-1 interview results, the sitemap was created, along with a user flow.'} />
                     </div>
                 </div>
                 <div className='flex-center card-sort'>
-                    <img className='width-75' src='/assets/img/marlowe/Sitemap.png'/>
+                    <img src='/assets/img/marlowe/Sitemap.png'/>
                 </div>
-                <div className='flex-center flex-column flex-align'>
-                    <img className='width-75' src='/assets/img/marlowe/User Flow.png' />
+                <div className='flex-center flex-column flex-align user-flow'>
+                    <img src='/assets/img/marlowe/User Flow.png' />
                 </div>
               <div className='interaction-icon width-50'>
                 <img src={'/assets/img/icons/Interaction-Design-Icon.png'}/>
                 <MainFont options={{size: 'md', bold: true, color: 'grey'}} text={'Interaction Design'}/>
                 <MainFont options={{size: 'xs'}} text={'Marlowe’s wireframes were designed with a mobile first design, as the users we focused on tend to use mobile devices. Paper sketches were made based on the user flow, prior to creating higher fidelity versions in Sketch.'} />
               </div>
-              <div className='wireframes1 width-75'>
+              <div className='site-div'>
                 <img src='/assets/img/marlowe/HP Large Screen Wireframe.png'/>
+                <img className="img-height" src='/assets/img/marlowe/HP Medium Screen Wireframe.png'/>
+                <img className="img-height" src='/assets/img/marlowe/HP Small Screen Wireframe.png'/>
               </div>
-              <div className='wireframes2 width-75'>
-                <img src='/assets/img/marlowe/HP Medium Screen Wireframe.png'/>
-              </div>
-              <div className='wireframes3 width-75'>
-                <img src='/assets/img/marlowe/HP Small Screen Wireframe.png'/>
-              </div>
-              <div className='wireframes1 width-75'>
+              <div className='site-div'>
                 <img src='/assets/img/marlowe/Artists Large Screen Wireframe.png'/>
+                <img className="img-height" src='/assets/img/marlowe/Artists Medium Screen Wireframe.png'/>
+                <img className="img-height" src='/assets/img/marlowe/Artists Small Screen Wireframe.png'/>
               </div>
-              <div className='wireframes2 width-75'>
-                <img src='/assets/img/marlowe/Artists Medium Screen Wireframe.png'/>
-              </div>
-              <div className='wireframes3 width-75'>
-                <img src='/assets/img/marlowe/Artists Small Screen Wireframe.png'/>
-              </div>
-              <div className='wireframes1 width-75'>
+              <div className='site-div'>
                 <img src='/assets/img/marlowe/Artist Large Screen Wireframe.png'/>
-              </div>
-              <div className='wireframes2 width-75'>
-                <img src='/assets/img/marlowe/Artist Medium Screen Wireframe.png'/>
-              </div>
-              <div className='wireframes3 width-75'>
-                <img src='/assets/img/marlowe/Artist Small Screen Wireframe.png'/>
+                <img className="img-height" src='/assets/img/marlowe/Artist Medium Screen Wireframe.png'/>
+                <img className="img-height" src='/assets/img/marlowe/Artist Small Screen Wireframe.png'/>
               </div>
               <div className='width-50 ui-design'>
                 <MainFont options={{size: 'xs'}} text={'A mid-fidelity prototype was built using InVision, and tested with 5 participants. The tasks for the usability tests involved observing how participants would navigate the site to submit a request for a consultation appointment with a specific artist, including a form and file upload process.'} />
-{/* TODO: Find link here */}
-                <a href='https://invis.io/UVEAURME8' target='_blank'><MainFont options={{size: 'xs', color: 'teal'}} text={'Click Here To See The Prototype.'} /></a>
+                <a href='https://invis.io/MPFJYJST642' target='_blank'><MainFont options={{size: 'xs', color: 'teal'}} text={'Click Here To See The Prototype.'} /></a>
                 <MainFont options={{size: 'xs'}} text={'All five users were successful in completing the assigned task within the goal time. The prototype proved that the users were very interested in the artist’s bio and portfolio of work, as 100% of them scrolled through those before submitting the request. The general opinion of the UI design was positive, with a few adjustments needing to be made to the submission form itself.'} />
                 <img src={'/assets/img/icons/UI-Design-Icon.png'}/>
                 <MainFont options={{size: 'md', bold: true, color: 'grey'}} text={'User Interface Design'}/>
@@ -163,39 +149,27 @@ class Marlowe extends React.Component {
               <div className='width-75'>
                 <img src='/assets/img/marlowe/Style Guide.png' />
               </div>
-              <div style={{margin: '50px auto 100px auto'}} className='width-50'>
+              <div className='width-50 site-image-descriptor'>
                 <MainFont options={{size: 'xs'}} text={'We then designed the pages utilizing the research and testing results. Since many of the users had errors when navigating the consultation form, the hierarchy was adjusted and now includes visual separation. The resulting pages are below:'} />
               </div>
-              <div className='width-75 responsive-pages'>
-                <div className='wireframes1 width-75'>
-                  <img src='/assets/img/marlowe/HP Large Screen copy.png'/>
+              <div>
+                <div className='site-div'>
+                  <img className="site-image-HP-large" src='/assets/img/marlowe/HP Large Screen copy.png'/>
+                  <img className="site-image-HP-medium" src='/assets/img/marlowe/HP Medium Screen copy.png'/>
+                  <img className="site-image-HP-small" src='/assets/img/marlowe/HP Small Screen copy.png'/>
                 </div>
-                <div className='wireframes2 width-75'>
-                  <img src='/assets/img/marlowe/HP Medium Screen Copy.png'/>
+                <div className='site-div'>
+                  <img className="site-image-artists-large" src='/assets/img/marlowe/Artists Large Screen copy.png'/>
+                  <img className="site-image-artists-medium" src='/assets/img/marlowe/Artists Medium Screen copy.png'/>
+                  <img className="site-image-artists-small" src='/assets/img/marlowe/Artists Small Screen copy.png'/>
                 </div>
-                <div className='wireframes3 width-75'>
-                  <img src='/assets/img/marlowe/HP Small Screen Copy.png'/>
+                <div className='site-div'>
+                  <img className="site-image-artist-large" src='/assets/img/marlowe/Artist Large Screen copy.png'/>
+                  <img className="site-image-artist-medium" src='/assets/img/marlowe/Artist Medium Screen copy.png'/>
+                  <img className="site-image-artist-small" src='/assets/img/marlowe/Artist Small Screen copy.png'/>
                 </div>
-                <div className='wireframes1 width-75'>
-                  <img src='/assets/img/marlowe/Artists Large Screen Copy.png'/>
-                </div>
-                <div className='wireframes2 width-75'>
-                  <img src='/assets/img/marlowe/Artists Medium Screen Copy.png'/>
-                </div>
-                <div className='wireframes3 width-75'>
-                  <img src='/assets/img/marlowe/Artists Small Screen Copy.png'/>
-                </div>
-                <div className='wireframes1 width-75'>
-                  <img src='/assets/img/marlowe/Artist Large Screen Copy.png'/>
-                </div>
-                <div className='wireframes2 width-75'>
-                  <img src='/assets/img/marlowe/Artist Medium Screen Copy.png'/>
-                </div>
-                <div className='wireframes3 width-75'>
-                  <img src='/assets/img/marlowe/Artist Small Screen Copy.png'/>
-                </div>
-                <div className='wireframes3 width-75'>
-                  <img src='/assets/img/marlowe/Artist Small Screen Copy.png'/>
+                <div className='mockup-div'>
+                  <img src='/assets/img/marlowe/Marlowe-mockups.png'/>
                 </div>
               </div>
               <div className='project-summary'>

@@ -52,6 +52,7 @@ li {
 
 .project-summary-container {
   width: 50%;
+  margin-bottom: 20px;
 }
 
 .project-summary-container p {
@@ -99,6 +100,10 @@ li {
   width: 80%;
 }
 
+.persona-img {
+  margin-bottom: 30px;
+}
+
 .quote {
   padding: 50px 0;
   margin: 50px 0;
@@ -108,19 +113,34 @@ li {
   margin: 50px 0 50px 0;
 }
 
+.one-on-one {
+  margin: 50px auto;
+}
+
 .card-sort {
   margin-top: 50px;
+}
+
+.user-flow {
+  margin: 200px auto;
 }
 
 .interaction-icon {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: auto;
+  margin: 0px auto 150px;
 }
 
 .interaction-icon p:nth-child(2) {
   margin: 20px 0 100px 0;
+}
+
+.site-div {
+  display: flex;
+  width: 81%;
+  margin: 0 auto 140px;
+  justify-content: space-around;
 }
 
 .wireframes1 img, .wireframes2 img {
@@ -135,11 +155,15 @@ li {
   margin: 50px auto;
 }
 
+.img-height {
+  height: 100%;
+}
+
 .ui-design {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 100px auto;
+  margin: 280px auto 100px;
 }
 
 .ui-design p, .ui-design a {
@@ -154,6 +178,61 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.site-image-descriptor {
+  margin: 100px auto 150px;
+}
+
+.site-image-HP-large {
+  width: auto;
+  height: 65em;
+}
+
+.site-image-HP-medium {
+  width: auto;
+  height: 54em;
+}
+
+.site-image-HP-small {
+  width: auto;
+  height: 76em;
+}
+
+.site-image-artists-large {
+  width: auto;
+  height: 60em;
+}
+
+.site-image-artists-medium {
+  width: auto;
+  height: 51em;
+}
+
+.site-image-artists-small {
+  width: auto;
+  height: 82em;
+}
+
+.site-image-artist-large {
+  width: auto;
+  height: 148em;
+}
+
+.site-image-artist-medium {
+  width: auto;
+  height: 144em;
+}
+
+.site-image-artist-small {
+  width: auto;
+  height: 168em;
+}
+
+.mockup-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 140px;
 }
 
 .responsive-pages img {
